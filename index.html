@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			input,p,ul,th,td,option{
+				padding:0;
+			}
+			input,select{
+				outline: none;
+			}
+			p,ul{
+				margin: 0;
+			}
+			li{
+				list-style: none;
+			}
+			.wrad{
+				width: 593px;
+				height: 67px;
+				padding:0 63px 0 62px;
+				font-size: 12px;
+				font-family: "微软雅黑";
+				color:#666666;
+				position: relative;	
+				border: 1px solid #e0e0e0;
+			}
+			.o1{
+				border: 1px solid #abadb3;
+				position: absolute;
+				left:130px;
+				top:26px;
+			}
+			.o2{
+				border: 1px solid #abadb3;
+				position: absolute;
+				left:249px;
+				top:26px;
+			}
+			.o3{
+				border: 1px solid #abadb3;
+				position: absolute;
+				left:457px;
+				top:26px;
+			}
+			option{
+				width: 106px;
+				height: 16px;
+			}
+			.p1{
+				position: absolute;
+				left:62px;
+				top:30px;
+				line-height: 12px;
+			}
+			.p2{
+				position: absolute;
+				left:390px;
+				top:30px;
+				line-height: 12px;
+			}
+			.i1{
+				position: absolute;
+				left:597px;
+				top:24px;
+			}
+			ul{
+				width: 718px;
+				height: 49px;
+				border: 1px solid #e0e0e0;
+				border-top: 0;
+				border-bottom: 0;
+				position: relative;
+			}
+			li{
+				font-size: 12px;
+				font-family: "微软雅黑";
+				color:#000000;
+				line-height: 12px;
+			}
+			.l1{
+				position: absolute;
+				left:204px;
+				top: 18px;
+			}
+			.l2{
+				position: absolute;
+				left:286px;
+				top: 18px;
+			}
+			.l3{
+				position: absolute;
+				left:368px;
+				top: 18px;
+			}
+			.l4{
+				position: absolute;
+				left:450px;
+				top: 18px;
+			}
+		 	.m1{
+		 		position: absolute;
+				left:185px;
+				top: 15px;
+		 	}
+		 	.m2{
+		 		position: absolute;
+				left:267px;
+				top: 15px;
+		 	}
+		 	.m3{
+		 		position: absolute;
+				left:349px;
+				top: 15px;
+		 	}
+		 	.m4{
+		 		position: absolute;
+				left:431px;
+				top: 15px;
+		 	}
+			table{
+				width: 720px;
+				height: 415px;
+				border: 1px solid #dadada;
+				border-collapse: collapse;
+			}
+			th,td{
+				border: 1px solid #dadada;
+			}
+			.t1{
+				width: 82px;
+				height: 25px;
+			}
+			.t2{
+				width: 78px;
+				height: 25px;
+			}
+			.t3{
+				width: 101px;
+				height: 25px;
+			}
+			.t4{
+				width: 30px;
+				height: 25px;
+			}
+			.t5{
+				width: 48px;
+				height: 25px;
+			}
+			.t6{
+				width: 75px;
+				height: 25px;
+			}
+			img{
+				vertical-align: top;
+			}
+			table{
+				font-size: 12px;
+				font-family: "微软雅黑";
+				color:#000000;
+				line-height: 25px;
+				text-align: center;
+			}
+			img{
+				margin-top: 6px;
+			}
+			ul img{
+				margin: 0;
+			}
+			thead{
+				background: #f7ffef;
+				color:#326801;
+			}
+			.p3{
+				font-size: 14px;
+				color:#4ca100;
+				line-height: 28px;
+			}
+			.p4{
+				color:#4ca100;
+			}
+			a{
+				text-decoration: none;
+			}
+			select{
+				width: 103px;
+				height: 19px;
+			}
+			.i1{
+				width: 56px;
+				height: 21px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrad">
+			<p class="p1">出诊时间：</p><select class="o1">
+							<option>--请选择--</option>
+			         </select>
+			         <select class="o2">
+							<option>--请选择--</option>
+			         </select>
+			<p class="p2">门诊类型：</p><select class="o3">
+							<option>--请选择--</option>
+			         </select>
+			 <input class="i1" type="button" value="查询"/>    
+		</div>
+			<ul>
+				<img class="m1" src="img/1.png" alt="" />
+				<img class="m2" src="img/2.png" alt="" />
+				<img class="m3" src="img/3.png" alt="" />
+				<img class="m4" src="img/4.png" alt="" />
+				<li class="l1">普通门诊</li>
+				<li class="l2">专家门诊</li>
+				<li class="l3">特殊门诊</li>
+				<li class="l4">夜间门诊</li>
+			</ul>
+			<table>
+				<thead>
+					<tr>
+						<th class="t1">医生姓名</th>
+						<th class="t2">所在科室</th>
+						<th class="t3">擅长</th>
+						<th class="t4"></th>
+						<th class="t5">一</th>
+						<th class="t5">二</th>
+						<th class="t5">三</th>
+						<th class="t5">四</th>
+						<th class="t5">五</th>
+						<th class="t5">六</th>
+						<th class="t5">日</th>
+						<th class="t6">联系医生</th>
+					</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td rowspan="3">
+								<p class="p3">马雯</p>
+								副主任医生
+							</td>
+							<td rowspan="3">马眼</td>
+							<td rowspan="3">
+								视神经、视网膜、脉络膜疾...
+								<a href="">[详细]</a>
+							</td>
+							<td><p class="p4">上</p></td>
+							<td>
+								<img src="img/2.png" alt="" />
+							</td>
+							<td></td>
+							<td>
+								<img src="img/2.png" alt="" />
+							</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td rowspan="3"></td>
+						</tr>
+						<tr>
+							<td><p class="p4">下</p></td>
+							<td></td>
+							<td>
+								<img src="img/2.png" alt="" />
+							</td>
+							<td>
+								<img src="img/2.png" alt="" />
+							</td>
+							<td></td>
+							<td>
+								<img src="img/2.png" alt="" />
+							</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><p class="p4">晚</p></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td rowspan="3">
+								<p class="p3">刘运良</p>
+								其他
+							</td>
+							<td rowspan="3">神经内科</td>
+							<td rowspan="3">
+								临床神经病学，脑血管病的...
+								<a href="">[详细]</a>
+							</td>
+							<td><p class="p4">上</p></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>
+								<img src="img/2.png" alt="" />
+							</td>
+							<td></td>
+							<td></td>
+							<td rowspan="3"></td>
+						</tr>
+						<tr>
+							<td><p class="p4">下</p></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><p class="p4">晚</p></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td rowspan="3">
+								<p class="p3">蒋健</p>
+								主治医师
+							</td>
+							<td rowspan="3">眼科</td>
+							<td rowspan="3"></td>
+							<td><p class="p4">上</p></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>
+								<img src="img/1.png" alt="" />
+							</td>
+							<td></td>
+							<td></td>
+							<td rowspan="3"></td>
+						</tr>
+						<tr>
+							<td><p class="p4">下</p></td>
+							<td></td>
+							<td></td>
+							<td>
+								<img src="img/1.png" alt="" />
+							</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><p class="p4">晚</p></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td rowspan="3">
+								<p class="p3">贺楚峰</p>
+								主治医师
+							</td>
+							<td rowspan="3">耳鼻咽喉科</td>
+							<td rowspan="3"></td>
+							<td><p class="p4">上</p></td>
+							<td>
+								<img src="img/1.png" alt="" />
+							</td>
+							<td></td>
+							<td>
+								<img src="img/1.png" alt="" />
+							</td>
+							<td>
+								<img src="img/1.png" alt="" />
+							</td>
+							<td>
+								<img src="img/1.png" alt="" />
+							</td>
+							<td></td>
+							<td></td>
+							<td rowspan="3"></td>
+						</tr>
+						<tr>
+							<td><p class="p4">下</p></td>
+							<td>
+								<img src="img/1.png" alt="" />
+							</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>
+								<img src="img/1.png" alt="" />
+							</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><p class="p4">晚</p></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td rowspan="3">
+								<p class="p3">吕水清</p>
+								其他
+							</td>
+							<td rowspan="3">神经内科</td>
+							<td rowspan="3">小儿神经病 (弱智和脑瘫)</td>
+							<td><p class="p4">上</p></td>
+							<td>
+								<img src="img/3.png" alt="" />
+							</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td rowspan="3"></td>
+						</tr>
+						<tr>
+							<td><p class="p4">下</p></td>
+							<td></td>
+							<td>
+								<img src="img/3.png" alt="" />
+							</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><p class="p4">晚</p></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+			</table>
+	</body>
+</html>
